@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Client</title>
+  </head>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <div id="react-app"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script defer type="text/babel" src="color_button.js"></script>
+  </body>
+</html>

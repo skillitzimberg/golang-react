@@ -1,0 +1,19 @@
+:root {
+  --bckgrnd-color: #ffffff;
+}
+
+body {
+  background-color: var(--bckgrnd-color);
+}
+
+#react-app {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
